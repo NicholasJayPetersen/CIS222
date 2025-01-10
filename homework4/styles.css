@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 10px;
+    padding: 20px;
+}
+
+.index-button {
+    display: flex;
+    justify-content: center;
+}
+
+tr td {
+    border: 1px solid #0d0d0d;
+}
+
+.table-format{
+    table{
+        width: 100%;
+    }
+
+    thead tr{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    th {
+        flex: 1;
+        text-align: center;
+    }
+
+    tbody{
+        display: block;
+}}
+
+.describe-table{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.describe-table table {
+    border: 2px solid #0d0d0d;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+.describe-table th, .describe-table td {
+    padding: 10px
+}
+
+.show-tables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.show-tables table {
+    border-spacing: 10px;
+}
+
+.show-tables a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.show-tables a {
+    padding: 10px
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: azure;
+}
+
+tr:nth-child(even):hover{
+    background-color: azure;
+       }
+
+tr:nth-child(odd):hover{
+    background-color: azure;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+tr:nth-child(odd){
+    background-color: whitesmoke;
+}

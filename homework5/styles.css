@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 35px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    color: slategray;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: cadetblue;
+}
+
+h2{
+    font-family: monospace;
+    margin-bottom: 5px;
+}
+
+div{
+    background-color: ghostwhite;
+    min-width: 65%;
+    max-width: 65%;
+    padding: 15px;
+    margin-bottom: 8px;
+    border: 3px solid slategray;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+}

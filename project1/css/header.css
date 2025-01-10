@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    color: lightgray;
+
+}
+
+.logo{
+    font-size: large;
+}
+
+.logo img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: lightgray;
+    font-weight: bold;
+    font-size: large;
+
+}
+.navbar ul li a:hover{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}

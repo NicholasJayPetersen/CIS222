@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    min-width: 100vw;
+    color: darkgray;
+    z-index: 10;
+    background-color: rgb(40, 40, 40, 100);
+
+}
+
+.logo{
+    font-size: large;
+}
+
+.logo img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: lightgray;
+    font-weight: bold;
+    font-size: large;
+
+}
+.navbar ul li a:hover{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}

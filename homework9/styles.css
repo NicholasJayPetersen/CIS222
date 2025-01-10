@@ -1,0 +1,11 @@
+#content{
+    font-size: 20px;
+    font-weight: bold;
+}
+#comment{
+    color: #292929;
+}
+
+textarea{
+    resize: none;
+}

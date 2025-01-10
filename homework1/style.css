@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", sans-serif;
+    background-color: #0d0d0d;
+    color: lightgrey;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+a{
+    color: limegreen;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover{
+    color: lightgreen;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    height : 100vh;
+    margin: auto;
+    padding: 1.75%;
+    border-radius: 20px;
+    background-color: #212121;
+}
+
+.bio{
+    font-size: large;
+    text-align: left;
+    height: auto;
+}
+
+.contact-box{
+    text-align: left;
+    max-width: 75%;
+    height: auto;
+}
+
+.contact{
+    width: 40%;
+    margin-left: 0;
+
+}
+
+.column-1{
+   width: 11%;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: lightgrey;
+    background-color: transparent;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.homework-assignments {
+    margin: 5%;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.assignment-links {
+    width: 50%;
+}
+
+.project-links {
+    width: 50%;
+}
+
+
+/* Homework 2 */
+.status-container {
+    display: flex;
+}
+
+.status-left {
+    flex: auto;
+    min-width: 190px;
+}
+.status-right {
+    flex: 100%;
+}

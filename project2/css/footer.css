@@ -1,0 +1,42 @@
+footer {
+    display: flex;
+    padding: 1em 0;
+    min-width: fit-content;
+    color: lightgray;
+    background-color: rgb(40, 40, 40, 100);
+}
+
+a {
+    color: lightgray;
+}
+a:hover {
+    color: white;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+    margin-right: 0;
+    min-width: fit-content;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    max-width: 100%;
+
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    padding-right: 50px;
+    color: lightgray;
+
+}
